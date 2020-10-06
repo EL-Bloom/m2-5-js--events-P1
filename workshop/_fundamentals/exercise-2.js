@@ -6,9 +6,12 @@
 // - if any of the values in either array is not strings, return undefined.
 
 const combineArrays = (arr1, arr2) => {
-  // Insert missing solution please
-};
+ const newArray = arr1.concat(arr2);
+ return newArray.sort(); 
 
+
+};
+console.log(combineArrays(["crisp", "bacon"], ['zuchini', 'apple']));
 // 2. Do a console.log to verify your function.
 
 // 3. Test your function.
